@@ -1,0 +1,19 @@
+.xt_woopr-account-section {
+	margin-bottom: 35px;
+	h3 {
+		margin: 0 0 6px!important;
+	}
+}
+
+.my_account_xt_points_rewards {
+	tr {
+		td,
+		th{
+			text-align: left!important;
+
+			&.points-rewards-event-points {
+				text-align: right!important;
+			}
+		}
+	}
+}

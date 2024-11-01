@@ -1,0 +1,1426 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: XT Points & Rewards for WooCommerce\n"
+"POT-Creation-Date: 2023-09-13 09:39-0400\n"
+"PO-Revision-Date: 2020-01-29 17:06-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: xt-woo-points-rewards.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: deploy\n"
+"X-Poedit-SearchPathExcluded-2: xt-framework\n"
+
+#: admin/class-admin-product.php:164 admin/class-admin-product.php:276
+#: admin/class-admin-product.php:515 admin/class-admin-product.php:551
+#: admin/class-admin.php:2330
+msgid "points related settings below"
+msgstr ""
+
+#: admin/class-admin-product.php:172 admin/class-admin-product.php:282
+#: admin/class-admin-product.php:357 admin/class-admin-product.php:391
+#: admin/class-admin-product.php:520 admin/class-admin-product.php:556
+#: admin/class-admin-product.php:645 admin/class-admin.php:866
+#: public/class-actions.php:145 public/class-actions.php:158
+#: public/class-actions.php:171 public/class-actions.php:199
+#: public/class-actions.php:415 public/class-actions.php:461
+msgid "Points Earned"
+msgstr ""
+
+#: admin/class-admin-product.php:173
+msgid ""
+"This can be either a fixed number of points earned for purchasing this "
+"product, or a percentage which assigns points based on the price. For "
+"example, if you want to award points equal to double the normal rate, enter "
+"200%.  This setting modifies the global Points Conversion Rate and overrides "
+"any category value.  Use 0 to assign no points for this product, and empty "
+"to use the global/category settings."
+msgstr ""
+
+#: admin/class-admin-product.php:185 admin/class-admin-product.php:290
+#: admin/class-admin-product.php:527 admin/class-admin-product.php:561
+#: admin/class-admin.php:624
+msgid "Maximum Points Discount"
+msgstr ""
+
+#: admin/class-admin-product.php:186 admin/class-admin-product.php:261
+msgid ""
+"Enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the "
+"product price. For example, if you want to restrict the discount on this "
+"product to a maximum of 50%, enter 50%, or enter 5 to restrict the maximum "
+"discount to $5.  This setting overrides the global/category defaults, use 0 "
+"to disable point discounts for this product, and blank to use the global/"
+"category default."
+msgstr ""
+
+#: admin/class-admin-product.php:199 admin/class-admin-product.php:298
+#: admin/class-admin-product.php:538 admin/class-admin-product.php:569
+msgid "Change Renewal Points"
+msgstr ""
+
+#: admin/class-admin-product.php:200 admin/class-admin-product.php:262
+#: admin/class-admin-product.php:507
+msgid ""
+"For Subscription renewals with a different point value than the signup, "
+"enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the "
+"product price. For example, if you want to restrict the discount on this "
+"product to a maximum of 50%, enter 50%, or enter 5 to restrict the maximum "
+"discount to $5.  This setting overrides the global/category defaults, use 0 "
+"to disable point discounts for this product, and blank to use the global/"
+"category default."
+msgstr ""
+
+#: admin/class-admin-product.php:260
+msgid ""
+"This can either be a fixed number of points earned for purchasing this "
+"variation, or a percentage which assigns points based on the price. For "
+"example, if you want to award points equal to double the the normal rate, "
+"enter 200%.  This setting modifies the global Points Conversion Rate and "
+"overrides any category value.  Use 0 to assign no points for this variation, "
+"and empty to use the global/category settings."
+msgstr ""
+
+#: admin/class-admin-product.php:272
+msgid "Rewards"
+msgstr ""
+
+#: admin/class-admin-product.php:285
+msgid "Variation Points Earned"
+msgstr ""
+
+#: admin/class-admin-product.php:293
+msgid "Variation Max Points Discount"
+msgstr ""
+
+#: admin/class-admin-product.php:301
+msgid "Variation Change Rewards Points"
+msgstr ""
+
+#: admin/class-admin-product.php:367
+msgid "Enter a value"
+msgstr ""
+
+#: admin/class-admin-product.php:396
+msgid "— No Change —"
+msgstr ""
+
+#: admin/class-admin-product.php:397
+msgid "Change to:"
+msgstr ""
+
+#: admin/class-admin-product.php:398
+msgid "Increase by (fixed amount or %):"
+msgstr ""
+
+#: admin/class-admin-product.php:399
+msgid "Decrease by (fixed amount or %):"
+msgstr ""
+
+#: admin/class-admin-product.php:409
+msgid "Enter Points Earned"
+msgstr ""
+
+#: admin/class-admin-product.php:505
+msgid ""
+"This can either be a fixed number of points earned for the purchase of any "
+"product that belongs to this category, or a percentage which assigns points "
+"based on the price of the product. For example, if you want to award points "
+"equal to double the normal rate, enter 200%.  This setting modifies the "
+"global Points Conversion Rate, but can be overridden by a product/variation. "
+"Use 0 to assign no points for products belonging to this category, and empty "
+"to use the global setting."
+msgstr ""
+
+#: admin/class-admin-product.php:506
+msgid ""
+"Enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the price "
+"of the product in this category. For example, if you want to restrict the "
+"discount on this category to a maximum of 50%, enter 50%, or enter $5 to "
+"restrict the maximum discount to $5.  This setting overrides the global "
+"default, but can be overridden by a product/variation. Use 0 to disable "
+"point discounts for this product, and blank to use the global/category "
+"default."
+msgstr ""
+
+#: admin/class-admin.php:158
+#, php-format
+msgid "Manage %s"
+msgstr ""
+
+#: admin/class-admin.php:170
+#, php-format
+msgid "%s Log"
+msgstr ""
+
+#: admin/class-admin.php:182
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/class-admin.php:200
+msgid "Settings"
+msgstr ""
+
+#: admin/class-admin.php:277
+msgid "Render my points"
+msgstr ""
+
+#: admin/class-admin.php:281
+msgid "Render my points log"
+msgstr ""
+
+#: admin/class-admin.php:285
+msgid "Render points legend"
+msgstr ""
+
+#: admin/class-admin.php:289
+msgid "Render Points Messages"
+msgstr ""
+
+#: admin/class-admin.php:290
+msgid "Visible only if cart is not empty"
+msgstr ""
+
+#: admin/class-admin.php:298
+msgid "shortcodes."
+msgstr ""
+
+#: admin/class-admin.php:316
+msgid "Configure"
+msgstr ""
+
+#: admin/class-admin.php:334
+#, php-format
+msgid ""
+"XT Points and Rewards requires coupons to be %senabled%s in order to "
+"function properly and allow customers to redeem points during checkout."
+msgstr ""
+
+#: admin/class-admin.php:370
+msgid "Manage Points"
+msgstr ""
+
+#: admin/class-admin.php:387
+msgid "Points Log"
+msgstr ""
+
+#: admin/class-admin.php:525
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-admin.php:532
+msgid "Enable Plugin"
+msgstr ""
+
+#: admin/class-admin.php:533 admin/class-admin.php:534
+msgid "Enable the plugin once you're ready."
+msgstr ""
+
+#: admin/class-admin.php:542
+msgid "Enable for user roles"
+msgstr ""
+
+#: admin/class-admin.php:543 admin/class-admin.php:544
+msgid ""
+"If user roles are selected, the plugin will only be enabled for those roles. "
+"Leave empty to enable the plugin for all users."
+msgstr ""
+
+#: admin/class-admin.php:553
+msgid "My Points Endpoint Slug"
+msgstr ""
+
+#: admin/class-admin.php:554
+msgid ""
+"Set the frontend endpoint slug used for the My Points page. The page will "
+"appear under WooCommerce My Account page."
+msgstr ""
+
+#: admin/class-admin.php:563
+msgid "Points Settings"
+msgstr ""
+
+#: admin/class-admin.php:570
+msgid "Earn Points Conversion Rate"
+msgstr ""
+
+#: admin/class-admin.php:571
+msgid "Set the number of points awarded based on the product price."
+msgstr ""
+
+#: admin/class-admin.php:579
+msgid "Earn Points Rounding Mode"
+msgstr ""
+
+#: admin/class-admin.php:580
+msgid "Set how points should be rounded."
+msgstr ""
+
+#: admin/class-admin.php:593
+msgid "Redemption Conversion Rate"
+msgstr ""
+
+#: admin/class-admin.php:594
+msgid "Set the value of points redeemed for a discount."
+msgstr ""
+
+#: admin/class-admin.php:604
+msgid "Partial Redemption"
+msgstr ""
+
+#: admin/class-admin.php:605
+msgid "Enable partial redemption"
+msgstr ""
+
+#: admin/class-admin.php:606
+msgid ""
+"Lets users enter how many points they wish to redeem during cart/checkout."
+msgstr ""
+
+#: admin/class-admin.php:614
+msgid "Minimum Points Discount"
+msgstr ""
+
+#: admin/class-admin.php:615
+msgid ""
+"Set the minimum points monetary value required before being able to redeem "
+"points. Use a fixed monetary value amount or leave blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:616
+msgid "Fixed monetary value amount or leave blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:625
+msgid ""
+"Set the maximum order discount allowed for the cart when redeeming points. "
+"Use either a fixed monetary value amount or a percentage based on the order "
+"total. Leave blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:626
+msgid ""
+"Fixed monetary value amount or a percentage based on the order total. Leave "
+"blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:634
+msgid "Maximum Product Points Discount"
+msgstr ""
+
+#: admin/class-admin.php:635
+msgid ""
+"Set the maximum product discount allowed when redeeming points per-product. "
+"Use either a fixed monetary amount or a percentage based on the product "
+"price. Leave blank to disable. This can be overridden at the category and "
+"product level."
+msgstr ""
+
+#: admin/class-admin.php:636
+msgid ""
+"Fixed monetary amount or a percentage based on the product price. Leave "
+"blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:644
+msgid "Tax Setting"
+msgstr ""
+
+#: admin/class-admin.php:645
+msgid "Whether or not points should apply to prices inclusive of tax."
+msgstr ""
+
+#: admin/class-admin.php:657
+msgid "Points Label"
+msgstr ""
+
+#: admin/class-admin.php:658
+msgid "The label used to refer to points on the frontend, singular and plural."
+msgstr ""
+
+#: admin/class-admin.php:660
+msgid "Point"
+msgstr ""
+
+#: admin/class-admin.php:660 admin/class-admin.php:1848
+#: admin/class-admin.php:2299
+msgid "Points"
+msgstr ""
+
+#: admin/class-admin.php:666
+msgid "Coupon Label"
+msgstr ""
+
+#: admin/class-admin.php:667
+msgid "The label used for the coupon within the cart totals."
+msgstr ""
+
+#: admin/class-admin.php:669 public/class-discount.php:136
+msgid "Points Redemption"
+msgstr ""
+
+#: admin/class-admin.php:675
+msgid "Points Expire After"
+msgstr ""
+
+#: admin/class-admin.php:676
+msgid "Set the period after which points expire once granted to a user"
+msgstr ""
+
+#: admin/class-admin.php:694
+msgid "Points Messages"
+msgstr ""
+
+#: admin/class-admin.php:695
+#, php-format
+msgid ""
+"Adjust the message by using %1$s{points}%2$s and %1$s{points_label}%2$s to "
+"represent the points earned / available for redemption and the label set for "
+"points."
+msgstr ""
+
+#: admin/class-admin.php:702
+msgid "Single Product Page Message"
+msgstr ""
+
+#: admin/class-admin.php:703
+msgid ""
+"Add an optional message to the single product page below the price. "
+"Customize the message using {points}, {points_value} and {points_label}. "
+"Limited HTML is allowed. Leave blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:704 admin/class-admin.php:715
+#: admin/class-admin.php:726 admin/class-admin.php:755
+#, php-format
+msgid ""
+"Variables: %1$s{points}%2$s %1$s{points_value}%2$s %1$s{points_label}%2$s"
+msgstr ""
+
+#: admin/class-admin.php:707
+#, php-format
+msgid "Purchase this product now and earn %s!"
+msgstr ""
+
+#: admin/class-admin.php:713
+msgid "Variable Product Page Message"
+msgstr ""
+
+#: admin/class-admin.php:714
+msgid ""
+"Add an optional message to the variable product page below the price. "
+"Customize the message using {points}, {points_value} and {points_label}. "
+"Limited HTML is allowed. Leave blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:718
+#, php-format
+msgid "Earn up to %s."
+msgstr ""
+
+#: admin/class-admin.php:724
+msgid "Earn Points Message"
+msgstr ""
+
+#: admin/class-admin.php:725
+msgid ""
+"Displayed on the shop, cart and checkout pages when points can be earned. "
+"Customize the message using {points}, {points_value} and {points_label}. "
+"Limited HTML is allowed."
+msgstr ""
+
+#: admin/class-admin.php:729
+#, php-format
+msgid "Complete your order and earn %s for a discount on a future purchase"
+msgstr ""
+
+#: admin/class-admin.php:735
+msgid "Earn Points Message Visibility"
+msgstr ""
+
+#: admin/class-admin.php:736 admin/class-admin.php:765
+msgid "Where would you like this message to appear?"
+msgstr ""
+
+#: admin/class-admin.php:753
+msgid "Redeem Points Message"
+msgstr ""
+
+#: admin/class-admin.php:754
+msgid ""
+"Displayed on the shop, cart and checkout page when points are available for "
+"redemption. Customize the message using {points}, {points_value}, and "
+"{points_label}. Limited HTML is allowed."
+msgstr ""
+
+#: admin/class-admin.php:758
+#, php-format
+msgid "Use %s for a %s discount on this order!"
+msgstr ""
+
+#: admin/class-admin.php:764
+msgid "Redeem Points Message Visibility"
+msgstr ""
+
+#: admin/class-admin.php:782
+msgid "Order Received Message"
+msgstr ""
+
+#: admin/class-admin.php:783
+msgid ""
+"Displayed on the thank you / order received & order detail page when points "
+"were earned. Customize the message using {points}, {total_points}, "
+"{points_label}, and {total_points_label}. Limited HTML is allowed."
+msgstr ""
+
+#: admin/class-admin.php:784 admin/class-admin.php:795
+#: admin/class-admin.php:806
+#, php-format
+msgid ""
+"Variables: %1$s{points}%2$s %1$s{total_points}%2$s %1$s{points_label}%2$s "
+"%1$s{total_points_label}%2$s"
+msgstr ""
+
+#: admin/class-admin.php:787 admin/class-admin.php:798
+#, php-format
+msgid "You have earned %s for this order. You now have a total of %s."
+msgstr ""
+
+#: admin/class-admin.php:793
+msgid "New Order / Order details Email Message"
+msgstr ""
+
+#: admin/class-admin.php:794
+msgid ""
+"Displayed within the New Order email / Order Details email that is sent to "
+"the customer when placing an order. Customize the message using {points}, "
+"{total_points}, {points_label}, and {total_points_label}. Limited HTML is "
+"allowed."
+msgstr ""
+
+#: admin/class-admin.php:804
+msgid "New Order Admin Email Message"
+msgstr ""
+
+#: admin/class-admin.php:805
+msgid ""
+"Displayed within the New Order email that is sent to the admin when a "
+"customer places an order. Customize the message using {points}, "
+"{total_points}, {points_label}, and {total_points_label}. Limited HTML is "
+"allowed."
+msgstr ""
+
+#: admin/class-admin.php:809
+#, php-format
+msgid "The customer earned %s for this order. They now have a total of %s."
+msgstr ""
+
+#: admin/class-admin.php:816
+msgid "Points Earned for Actions"
+msgstr ""
+
+#: admin/class-admin.php:817
+msgid ""
+"Customers can also earn points for actions like creating an account or "
+"writing a product review. You can enter the amount of points the customer "
+"will earn for each action in this section."
+msgstr ""
+
+#: admin/class-admin.php:843
+msgid "Email Notifications"
+msgstr ""
+
+#: admin/class-admin.php:844
+msgid ""
+"Turn ON or OFF customer email notifications for each action that resulted in "
+"earning points."
+msgstr ""
+
+#: admin/class-admin.php:855
+#, php-format
+msgid ""
+"%1$sNote:%2$s This feature is using %1$swp_mail()%2$s, make sure sure %3$s "
+"is working, or else, emails might not get delivered."
+msgstr ""
+
+#: admin/class-admin.php:864
+msgid "Notify customer by email"
+msgstr ""
+
+#: admin/class-admin.php:885
+msgid "Points Badges"
+msgstr ""
+
+#: admin/class-admin.php:886
+msgid ""
+"Insert a points badge on your shop products to highlight how many points can "
+"a customer earn on purchase."
+msgstr ""
+
+#: admin/class-admin.php:906
+msgid "Enable Points Badge"
+msgstr ""
+
+#: admin/class-admin.php:914
+msgid "Show Over Product Image"
+msgstr ""
+
+#: admin/class-admin.php:928
+msgid "Show On Hover"
+msgstr ""
+
+#: admin/class-admin.php:947
+msgid "Badge Dimensions"
+msgstr ""
+
+#: admin/class-admin.php:953
+msgid "Full Width"
+msgstr ""
+
+#: admin/class-admin.php:960
+msgid "Full Height"
+msgstr ""
+
+#: admin/class-admin.php:973 admin/class-admin.php:1443
+msgid "Width"
+msgstr ""
+
+#: admin/class-admin.php:999
+msgid "Height"
+msgstr ""
+
+#: admin/class-admin.php:1034
+msgid "Badge Position"
+msgstr ""
+
+#: admin/class-admin.php:1041
+msgid "Top Left"
+msgstr ""
+
+#: admin/class-admin.php:1042
+msgid "Top Center"
+msgstr ""
+
+#: admin/class-admin.php:1043
+msgid "Top Right"
+msgstr ""
+
+#: admin/class-admin.php:1044
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/class-admin.php:1045
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/class-admin.php:1046
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/class-admin.php:1057
+msgid "Badge Text Horizontal Align"
+msgstr ""
+
+#: admin/class-admin.php:1063 admin/class-admin.php:1149
+#: admin/class-admin.php:1324
+msgid "Left"
+msgstr ""
+
+#: admin/class-admin.php:1064
+msgid "Center"
+msgstr ""
+
+#: admin/class-admin.php:1065 admin/class-admin.php:1125
+#: admin/class-admin.php:1272
+msgid "Right"
+msgstr ""
+
+#: admin/class-admin.php:1082
+msgid "Badge Text Vertical Align"
+msgstr ""
+
+#: admin/class-admin.php:1088 admin/class-admin.php:1113
+#: admin/class-admin.php:1183 admin/class-admin.php:1246
+msgid "Top"
+msgstr ""
+
+#: admin/class-admin.php:1089
+msgid "Middle"
+msgstr ""
+
+#: admin/class-admin.php:1090 admin/class-admin.php:1137
+#: admin/class-admin.php:1195 admin/class-admin.php:1298
+msgid "Bottom"
+msgstr ""
+
+#: admin/class-admin.php:1107
+msgid "Badge Padding"
+msgstr ""
+
+#: admin/class-admin.php:1177 admin/class-admin.php:1240
+msgid "Badge Margin"
+msgstr ""
+
+#: admin/class-admin.php:1207
+msgid "Left / Right"
+msgstr ""
+
+#: admin/class-admin.php:1363
+msgid "Badge Offset"
+msgstr ""
+
+#: admin/class-admin.php:1369
+msgid "X"
+msgstr ""
+
+#: admin/class-admin.php:1381
+msgid "Y"
+msgstr ""
+
+#: admin/class-admin.php:1418
+msgid "Badge Border"
+msgstr ""
+
+#: admin/class-admin.php:1424
+msgid "Radius"
+msgstr ""
+
+#: admin/class-admin.php:1462
+msgid "Style"
+msgstr ""
+
+#: admin/class-admin.php:1468
+msgid "Solid"
+msgstr ""
+
+#: admin/class-admin.php:1469
+msgid "Dotted"
+msgstr ""
+
+#: admin/class-admin.php:1470
+msgid "Dashed"
+msgstr ""
+
+#: admin/class-admin.php:1480
+msgid "Color"
+msgstr ""
+
+#: admin/class-admin.php:1501
+msgid "Badge Font Size"
+msgstr ""
+
+#: admin/class-admin.php:1527
+msgid "Badge Font Weight"
+msgstr ""
+
+#: admin/class-admin.php:1528
+msgid "Depends on the font family loaded on the frontend via your theme"
+msgstr ""
+
+#: admin/class-admin.php:1552
+msgid "Badge BG Color"
+msgstr ""
+
+#: admin/class-admin.php:1571
+msgid "Badge Text color"
+msgstr ""
+
+#: admin/class-admin.php:1590
+msgid "Badge Z-Index Order"
+msgstr ""
+
+#: admin/class-admin.php:1591
+msgid ""
+"The z-index specifies the stack order of the badge. This is useful in case "
+"the badge is appearing on top of other badges, such as a sale badge. In that "
+"case, lower the z-index order to make it appear behind the sale badge."
+msgstr ""
+
+#: admin/class-admin.php:1615
+msgid "Enable Sparkles"
+msgstr ""
+
+#: admin/class-admin.php:1629
+msgid "Number Of Sparkles"
+msgstr ""
+
+#: admin/class-admin.php:1652
+msgid "Sparkle color"
+msgstr ""
+
+#: admin/class-admin.php:1688
+msgid "Admin Tools"
+msgstr ""
+
+#: admin/class-admin.php:1693
+msgid "Apply Points to Previous Orders"
+msgstr ""
+
+#: admin/class-admin.php:1694
+msgid ""
+"This will apply points to all previous orders (paid and completed) and "
+"cannot be reversed."
+msgstr ""
+
+#: admin/class-admin.php:1695
+msgid "Apply Points"
+msgstr ""
+
+#: admin/class-admin.php:1704
+msgid "Delete all points and clear the logs."
+msgstr ""
+
+#: admin/class-admin.php:1705
+msgid "This action will remove all customer points. This cannot be undone!"
+msgstr ""
+
+#: admin/class-admin.php:1706 admin/class-admin.php:2408
+msgid "Delete all points and clear the logs"
+msgstr ""
+
+#: admin/class-admin.php:1714 admin/class-admin.php:1716
+#: admin/class-admin.php:2415
+msgid "Factory Reset"
+msgstr ""
+
+#: admin/class-admin.php:1715
+msgid ""
+"This action will remove all customer points, user metas, category metas & "
+"post metas ever saved by the plugin. This cannot be undone!"
+msgstr ""
+
+#: admin/class-admin.php:1890
+msgid "Singular Label"
+msgstr ""
+
+#: admin/class-admin.php:1891
+msgid "Plural Label"
+msgstr ""
+
+#: admin/class-admin.php:2044
+#, php-format
+msgid "%sOnly apply to points earned since%s - %sOptional%s"
+msgstr ""
+
+#: admin/class-admin.php:2048 admin/class-admin.php:2077
+#: admin/class-admin.php:2087
+msgctxt "placeholder"
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: admin/class-admin.php:2051
+msgid "Leave blank to apply to all points"
+msgstr ""
+
+#: admin/class-admin.php:2073
+msgid "From"
+msgstr ""
+
+#: admin/class-admin.php:2083
+msgid "To"
+msgstr ""
+
+#: admin/class-admin.php:2092
+msgid "Leave blank to apply to all orders"
+msgstr ""
+
+#: admin/class-admin.php:2184
+msgid "Database error while applying user points."
+msgstr ""
+
+#: admin/class-admin.php:2217
+#, php-format
+msgid "%d order updated."
+msgid_plural "%s orders updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-admin.php:2237
+msgid "All points and logs have been successfully deleted!"
+msgstr ""
+
+#: admin/class-admin.php:2278
+msgid "Factory Reset Succeeded!"
+msgstr ""
+
+#: admin/class-admin.php:2302
+msgid "Earned:"
+msgstr ""
+
+#: admin/class-admin.php:2304 admin/class-admin.php:2310
+msgid "None"
+msgstr ""
+
+#: admin/class-admin.php:2308
+msgid "Redeemed:"
+msgstr ""
+
+#: admin/class-admin.php:2337
+msgid "Points Modifier"
+msgstr ""
+
+#: admin/class-admin.php:2338
+msgid ""
+"Enter a percentage which modifies how points are earned when this coupon is "
+"applied. For example, enter 200% to double the amount of points typically "
+"earned when the coupon is applied."
+msgstr ""
+
+#: admin/class-admin.php:2407
+msgid "XT Points and Rewards: Reset Points"
+msgstr ""
+
+#: admin/class-admin.php:2409
+#, php-format
+msgid ""
+"%1$sNote:%2$s This action will remove all customer points. This cannot be "
+"undone!"
+msgstr ""
+
+#: admin/class-admin.php:2414
+msgid "XT Points and Rewards: Factory Reset"
+msgstr ""
+
+#: admin/class-admin.php:2416
+#, php-format
+msgid ""
+"%1$sNote:%2$s This action will remove all customer points, user metas, "
+"category metas & post metas ever saved by the plugin. This cannot be undone!"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:73
+#: admin/class-manage-points-list-table.php:100
+#: admin/class-manage-points-list-table.php:190
+msgid "Update"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:97
+#: admin/class-points-log-list-table.php:71
+msgid "Customer"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:99
+msgid "Value"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:235
+msgid "Failed updating points. Invalid nonce!"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:260
+#, php-format
+msgid "%d customer updated."
+msgid_plural "%s customers updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-manage-points-list-table.php:263
+#, php-format
+msgid "%d customer could not be updated."
+msgid_plural "%s customers could not be updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-manage-points-list-table.php:394
+msgid "No user points found"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:396
+msgid ""
+"User points will appear here for you to view and manage once you have "
+"customers."
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:421
+#: admin/class-points-log-list-table.php:240
+msgid "Invalid customer"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:430
+#: admin/class-points-log-list-table.php:248
+msgid "Show All Customers"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:446
+#: admin/class-points-log-list-table.php:273
+msgid "Filter"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:73
+#: public/templates/myaccount/my-points-log.php:40
+msgid "Event"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:74
+#: public/templates/emails/points-update.php:37
+#: public/templates/myaccount/my-points-log.php:41
+msgid "Date"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:213
+msgid "No log entries found"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:215
+msgid "Point log entries will appear here for you to view and manage."
+msgstr ""
+
+#: admin/class-points-log-list-table.php:260
+msgid "Show All Event Types"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:303
+msgid "Show all Event Dates"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:315
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: public/class-actions.php:136
+msgid "the customer's"
+msgstr ""
+
+#: public/class-actions.php:136 public/class-actions.php:268
+#: public/class-actions.php:328
+msgid "your"
+msgstr ""
+
+#: public/class-actions.php:142 public/class-actions.php:235
+#: public/class-manager.php:78
+msgid "Points earned for account registration"
+msgstr ""
+
+#: public/class-actions.php:143
+msgid "Enter the amount of points earned when a customer register an account."
+msgstr ""
+
+#: public/class-actions.php:155 public/class-actions.php:236
+#: public/class-manager.php:79
+msgid "Points earned for writing a review"
+msgstr ""
+
+#: public/class-actions.php:156
+msgid ""
+"Enter the amount of points earned when a customer first reviews a product."
+msgstr ""
+
+#: public/class-actions.php:168 public/class-actions.php:237
+#: public/class-manager.php:80
+msgid "Points earned for the first order placed"
+msgstr ""
+
+#: public/class-actions.php:169
+msgid ""
+"Enter the amount of points earned when a customer places an order for the "
+"first time."
+msgstr ""
+
+#: public/class-actions.php:180
+msgid "Points earned after number of points collected"
+msgstr ""
+
+#: public/class-actions.php:181
+msgid ""
+"Enter the amount of points earned when a customer reaches a specific number "
+"of points"
+msgstr ""
+
+#: public/class-actions.php:188
+msgid "Points earned when a spend threshold reached"
+msgstr ""
+
+#: public/class-actions.php:189
+msgid ""
+"Enter the amount of points earned when a customer reaches a spend threshold"
+msgstr ""
+
+#: public/class-actions.php:196
+#, php-format
+msgid "Points earned when it's %s birthday"
+msgstr ""
+
+#: public/class-actions.php:197
+msgid ""
+"Enter the amount of points earned when it's a customer's birthday. If set, a "
+"required birth date field will appear within WooCommerce billing form on "
+"both the frontend and backend."
+msgstr ""
+
+#: public/class-actions.php:209
+msgid "Birth day field date format"
+msgstr ""
+
+#: public/class-actions.php:210
+#, php-format
+msgid "List of available formats: %s"
+msgstr ""
+
+#: public/class-actions.php:212 public/class-actions.php:214
+msgid "yy-mm-dd"
+msgstr ""
+
+#: public/class-actions.php:238 public/class-manager.php:81
+msgid "Points earned after number of points collected."
+msgstr ""
+
+#: public/class-actions.php:239 public/class-manager.php:82
+msgid "Points earned when a spend threshold reached."
+msgstr ""
+
+#: public/class-actions.php:240 public/class-manager.php:83
+msgid "Points earned when it's the customer's birthday"
+msgstr ""
+
+#: public/class-actions.php:244 public/class-manager.php:102
+#, php-format
+msgid "%s earned for signing up"
+msgstr ""
+
+#: public/class-actions.php:245 public/class-manager.php:103
+#, php-format
+msgid "%s earned for reviewing"
+msgstr ""
+
+#: public/class-actions.php:246 public/class-manager.php:104
+#, php-format
+msgid "%s earned for placing %s first order"
+msgstr ""
+
+#: public/class-actions.php:247 public/class-manager.php:105
+#, php-format
+msgid "%1$s earned for collecting at least %2$d %1$s."
+msgstr ""
+
+#: public/class-actions.php:248 public/class-manager.php:106
+#, php-format
+msgid "%1$s earned for spending at least %2$s%3$d."
+msgstr ""
+
+#: public/class-actions.php:249 public/class-manager.php:107
+#, php-format
+msgid "%s earned for %s birthday"
+msgstr ""
+
+#: public/class-actions.php:268 public/class-actions.php:328
+msgid "their"
+msgstr ""
+
+#: public/class-actions.php:344
+#, php-format
+msgid "Earn %s%s %s%s for signing up"
+msgstr ""
+
+#: public/class-actions.php:347
+#, php-format
+msgid "Earn %s%s %s%s for reviewing a product"
+msgstr ""
+
+#: public/class-actions.php:350
+#, php-format
+msgid "Earn %s%s %s%s for placing %s first order"
+msgstr ""
+
+#: public/class-actions.php:357
+#, php-format
+msgid "Earn %s%s %s%s when you reach %s%s %s%s"
+msgstr ""
+
+#: public/class-actions.php:367
+#, php-format
+msgid "Earn %s%s %s%s when your total spending reaches %s%s%s"
+msgstr ""
+
+#: public/class-actions.php:370
+#, php-format
+msgid "Earn %s%s %s%s on %s birthday"
+msgstr ""
+
+#: public/class-actions.php:423
+msgid "# Points Collected"
+msgstr ""
+
+#: public/class-actions.php:470
+msgid "Spending Threshold"
+msgstr ""
+
+#: public/class-actions.php:492
+msgid "# Points Collected field cannot be empty"
+msgstr ""
+
+#: public/class-actions.php:518
+msgid "Spending Threshold field cannot be empty"
+msgstr ""
+
+#: public/class-actions.php:664
+#, php-format
+msgid "Customer earned %1$d %2$s for placing first order."
+msgstr ""
+
+#: public/class-actions.php:692
+#, php-format
+msgid "Customer earned %1$d %2$s for collecting at least %3$d %2$s."
+msgstr ""
+
+#: public/class-actions.php:722
+#, php-format
+msgid "Customer earned %1$d %2$s for spending at least %3$s%4$d."
+msgstr ""
+
+#: public/class-actions.php:812
+msgid "Database error while detecting user birthdays"
+msgstr ""
+
+#: public/class-actions.php:835
+#, php-format
+msgid "%d birthday detected today."
+msgid_plural "%s birthdays detected today."
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/class-actions.php:1125 public/class-actions.php:1153
+#: public/class-actions.php:1154 public/class-actions.php:1180
+#: public/class-actions.php:1181
+msgid "Birth date"
+msgstr ""
+
+#: public/class-actions.php:1216
+msgid "Please enter a valid birth date."
+msgstr ""
+
+#: public/class-actions.php:1244
+#, php-format
+msgid "Please enter a valid %sbirth date%s."
+msgstr ""
+
+#: public/class-cart-checkout.php:164
+msgid "Points redemption"
+msgstr ""
+
+#: public/class-cart-checkout.php:288
+msgid "View Cart"
+msgstr ""
+
+#: public/class-cart-checkout.php:289
+msgid "Checkout"
+msgstr ""
+
+#: public/class-cart-checkout.php:343
+#, php-format
+msgid "Earned %s"
+msgstr ""
+
+#: public/class-cart-checkout.php:439
+msgid "Redeem"
+msgstr ""
+
+#: public/class-discount.php:127
+msgid "Discount Applied Successfully"
+msgstr ""
+
+#: public/class-manager.php:66
+msgid "Points reset by \"admin\""
+msgstr ""
+
+#: public/class-manager.php:67
+msgid "Points adjusted by \"admin\""
+msgstr ""
+
+#: public/class-manager.php:68
+msgid "Points earned for purchase"
+msgstr ""
+
+#: public/class-manager.php:69
+msgid "Points adjusted for cancelled order"
+msgstr ""
+
+#: public/class-manager.php:70
+msgid "Points adjusted for an order refund"
+msgstr ""
+
+#: public/class-manager.php:71
+msgid "Points redeemed towards purchase"
+msgstr ""
+
+#: public/class-manager.php:72
+msgid "Points expired"
+msgstr ""
+
+#: public/class-manager.php:90
+#, php-format
+msgid "%s reset by \"admin\""
+msgstr ""
+
+#: public/class-manager.php:91
+#, php-format
+msgid "%s adjusted by \"admin\""
+msgstr ""
+
+#: public/class-manager.php:92
+#, php-format
+msgid "%s earned for purchase"
+msgstr ""
+
+#: public/class-manager.php:93
+#, php-format
+msgid "%s adjusted for cancelled order"
+msgstr ""
+
+#: public/class-manager.php:94
+#, php-format
+msgid "%s adjusted for an order refund"
+msgstr ""
+
+#: public/class-manager.php:95
+#, php-format
+msgid "%s redeemed towards purchase"
+msgstr ""
+
+#: public/class-manager.php:96
+#, php-format
+msgid "%s expired"
+msgstr ""
+
+#: public/class-manager.php:157
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: public/class-order.php:165
+#, php-format
+msgid "Customer earned %1$d %2$s for purchase."
+msgstr ""
+
+#: public/class-order.php:325
+#, php-format
+msgid "%1$d %2$s redeemed for a %3$s discount."
+msgstr ""
+
+#: public/class-order.php:386 public/class-order.php:441
+#, php-format
+msgid "%1$d %2$s removed."
+msgstr ""
+
+#: public/class-order.php:402
+#, php-format
+msgid "%1$d %2$s credited back to customer."
+msgstr ""
+
+#: public/class-points-log.php:130 public/class-points-log.php:137
+#, php-format
+msgid "%s Update"
+msgstr ""
+
+#: public/class-points-log.php:210
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: public/class-points-log.php:371
+msgid "Unknown"
+msgstr ""
+
+#: public/class-product.php:803
+#, php-format
+msgid "Earn up to %d %s!"
+msgstr ""
+
+#: public/class-product.php:805
+#, php-format
+msgid "Earn %d %s!"
+msgstr ""
+
+#: public/class-public.php:168
+msgid "How many points would you like to apply?"
+msgstr ""
+
+#: public/class-public.php:226 public/templates/myaccount/my-points.php:29
+#, php-format
+msgid "My %s"
+msgstr ""
+
+#: public/class-public.php:252
+#, php-format
+msgid "Earn %s%s %s%s for every %s%s%s spent"
+msgstr ""
+
+#: public/templates/emails/points-update.php:32
+#, php-format
+msgid "Hello %s, your %s got updated!"
+msgstr ""
+
+#: public/templates/emails/points-update.php:36
+msgid "Action"
+msgstr ""
+
+#: public/templates/emails/points-update.php:39
+#, php-format
+msgid "You now have a total of %s %s"
+msgstr ""
+
+#: public/templates/myaccount/my-points-log.php:35
+#, php-format
+msgid "My %s history"
+msgstr ""
+
+#: public/templates/myaccount/my-points-log.php:64
+msgid "Previous"
+msgstr ""
+
+#: public/templates/myaccount/my-points-log.php:68
+msgid "Next"
+msgstr ""
+
+#: public/templates/myaccount/my-points.php:31
+#, php-format
+msgid "You have %s%d%s %s"
+msgstr ""
+
+#: public/templates/myaccount/points-legend.php:29
+#, php-format
+msgid "How to earn %s?"
+msgstr ""
+
+#: xt-woo-points-rewards.php:43
+msgid "Points & Rewards for WooCommerce"
+msgstr ""
+
+#: xt-woo-points-rewards.php:44
+msgid "Points & Rewards"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "XT Points & Rewards for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://xplodedthemes.com/products/woo-points-rewards/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A WooCommerce extension that lets you reward your customers for purchases "
+"and other actions with points that can be redeemed for discounts"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "XplodedThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://xplodedthemes.com"
+msgstr ""

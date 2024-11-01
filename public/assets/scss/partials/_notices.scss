@@ -1,0 +1,68 @@
+.xt_woopr_points_message {
+
+	.xt_woopr-variation-selected .single_variation_wrap > &{
+		display:none
+	}
+}
+
+.xt_woopr-hide-on-shop{
+	body.woocommerce &{
+		display:none!important;
+	}
+}
+.xt_woopr-hide-on-cart{
+	.xt_woofc &,
+	body.woocommerce-cart &{
+		display:none!important;
+	}
+}
+.xt_woopr-hide-on-checkout{
+	.xt_woofc &,
+	body.woocommerce-checkout &{
+		display:none!important;
+	}
+}
+
+.xt_woopr-hide-if-not-wc-page{
+	body:not(.woocommerce-page) &{
+		display:none!important;
+	}
+}
+
+.xt_woopr-hide-earn-message{
+	.xt-framework-notices:not(.xt_woopr-shortcode) .xt_woofc-earn-message{
+		display:none;
+	}
+}
+
+.xt_woopr-hide-redeem-message{
+	.xt-framework-notices:not(.xt_woopr-shortcode) .xt_woofc-redeem-message{
+		display:none;
+	}
+}
+
+
+.xt_woopr_apply_discount_container {
+	display: flex;
+	flex-direction: row;
+}
+
+.xt_woopr_apply_discount_amount {
+	width: 80px;
+	border: 0;
+	margin-right: 5px;
+	box-shadow: 0 0 3px #eaeaea;
+	outline: none;
+
+}
+
+@media screen and (max-width: 499px) {
+	.xt_woopr_apply_discount_container {
+		flex-direction: column;
+	}
+	.xt_woopr_apply_discount_amount{
+		width: 100%;
+		margin: 0 0 5px;
+		text-align: center;
+	}
+}
